@@ -5,12 +5,12 @@ import contactReducer from '../reducers/contactReducer'
 
 
 const configureStore = () => {
-    const store = createStore(combineReducers({
-        user: userReducer,
-        contacts: contactsReducer,
-        contact:contactReducer
-    }))
-    return store
+	const store = createStore(combineReducers({
+		user: userReducer,
+		contacts: contactsReducer,
+		contact:contactReducer
+	}))
+  return store
 }
 
 export default configureStore

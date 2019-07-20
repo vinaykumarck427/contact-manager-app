@@ -39,7 +39,6 @@ class AddForm extends React.Component{
   render(){
     return(
       <div>
-        {!this.state}
         <form className="form1" onSubmit={this.handleSubmit}>
           <div className="form-group">
             <label className="label" htmlFor='label1'>Name</label><br />

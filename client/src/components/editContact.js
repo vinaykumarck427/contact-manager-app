@@ -21,15 +21,15 @@ class EditContact extends React.Component{
   }
   handleSubmit = (formData) => {
     const id = this.props.match.params.id
-      axios.put(`/contacts/${id}`, formData, {
-        headers: {
-          'x-auth': localStorage.getItem('userAuthToken')
-        }
-      })
-        .then(response => {
-          this.props.dispatch(editContact(response.data))
-          this.props.history.push(`/contacts/${id}`)
-        })
+    axios.put(`/contacts/${id}`, formData, {
+      headers: {
+        'x-auth': localStorage.getItem('userAuthToken')
+      }
+    })
+    .then(response => {
+      this.props.dispatch(editContact(response.data))
+      this.props.history.push(`/contacts/${id}`)
+    })
     }
 
   render(){

@@ -19,21 +19,20 @@ store.subscribe(() => {
 })
 
 if(localStorage.getItem('userAuthToken')){
-    axios.get('/users/account',{
-        headers:{
-            'x-auth':localStorage.getItem('userAuthToken')
-        }
-    })
-    .then(response => {
-        store.dispatch(setUser(response.data))
-        // Promise.all([axios.get('/contacts'),axios.get(contact/)])
-    })
+	axios.get('/users/account',{
+		headers:{
+			'x-auth':localStorage.getItem('userAuthToken')
+		}
+	})
+	.then(response => {
+		store.dispatch(setUser(response.data))
+		// Promise.all([axios.get('/contacts'),axios.get(contact/)])
+	})
 }
 const provider = (
-    <Provider store={store}>
-        <App />
-        {/* <MyComponent /> */}
-    </Provider>
+	<Provider store={store}>
+		<App />
+	</Provider>
 )
 
 ReactDOM.render(provider,document.getElementById('root'))

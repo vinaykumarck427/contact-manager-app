@@ -6,13 +6,13 @@ const CONNECTION_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/con
 
 
 mongoose.connect(CONNECTION_URI, { useNewUrlParser: true, useCreateIndex: true})
-    .then(() => {
-        console.log('connecting to db')
-    })
-    .catch(err => {
-        console.log(err)
-    })
+	.then(() => {
+		console.log('connecting to db')
+	})
+	.catch(err => {
+		console.log(err)
+	})
 
 module.exports = {
-    mongoose
+	mongoose
 }
