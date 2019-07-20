@@ -1,0 +1,210 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+.formLabel{
+  color: rgb(155, 56, 168);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 17px;
+  float: left;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-left: 70px;
+  width: 50%;
+}
+.formLabel2{
+  color: rgb(155, 56, 168);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 17px;
+  float: left;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-left: 50px;
+  width: 50%;
+}
+.button{
+  width: 30%;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rosybrown;
+}
+.b1{
+  width: 40%;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  margin-left:125px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rosybrown;
+}
+.b1:hover {
+  background-color: darkgoldenrod;
+}
+.button:hover {
+  background-color: darkgoldenrod;
+}
+.input{
+  margin-bottom: 0%;
+  padding: 0px;
+  margin-left: 70px;
+  height: 30px;
+  border-top-right-radius: 0mm;
+  border-top-left-radius: 0mm;
+  border-bottom-left-radius: 0mm;
+  border-bottom-right-radius: 0mm;
+  border-style: unset;
+}
+.input2{
+  margin-bottom: 0%;
+  padding: 0px;
+  margin-left: 50px;
+  height: 30px;
+  border-top-right-radius: 0mm;
+  border-top-left-radius: 0mm;
+  border-bottom-left-radius: 0mm;
+  border-bottom-right-radius: 0mm;
+  border-style: none;
+}
+.h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  padding-left: 35px;
+  width: 150%;
+  margin-bottom: 20px;
+}
+.form{
+  background-color: lightslategray;
+  width:150%;
+  height:  70%;
+  border-radius: 10px;
+}
+.h3{
+  color: darkolivegreen;
+  margin-left: 18%;
+}
+.ul{
+  border-radius: 0px
+}
+#li{
+  margin: 0%;
+  width: 60%;
+}
+#li:hover {
+    background-color: rgb(158, 134, 114);
+}
+.li{
+  width: 10%;
+  margin-left: 30px;
+}
+.button1{
+  border:none;
+  border-radius: 5%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 0%;
+  padding-top: 2px;
+}
+.button1:hover{
+  border: none;
+  background-color: lightcoral;
+  color: white;
+}
+.Link{
+   margin-left: 0px;
+}
+.Link:hover{
+  color: darkorchid;
+}
+.h6{
+  margin-right: 0px;
+  margin-left: 30px;
+  margin-top: 0%; 
+  margin-bottom: 0%;
+  color:darkcyan;
+}
+.h6:hover{
+  color: darkblue;
+}
+.h21{
+  color: aqua;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+.form1{
+  background-color: lightgreen;
+  border-radius: 10%;
+  width: 85%;
+  height: 100%;
+}
+.form1 .label{
+  color: rgba(195, 4, 4, 0.924);
+  margin-left:30px;
+  margin-top: 10px;
+}
+.form1 .input1{
+  margin-left:30px;
+  margin-top: 5px;
+  border-radius: 5%;
+}
+.form1 .input1:hover{
+  border-color: lightgreen;
+  margin-left:30px;
+  margin-top: 5px;
+}
+.button2{
+  width: 40%;
+  text-align: center;
+  border: none;
+  background-color: lightslategray;
+  border-radius: 30px;
+  color: #fff;
+  margin-left: 125px;
+  margin-top: 45px;
+  
+}
+.button2:hover {
+  background-color: darkolivegreen;
+}
+
+.h11{
+  margin: 30px 0px 20px 100px;
+  font-style: oblique;
+  font: 2em sans-serif;
+  color: rgb(1, 75, 149)
+}
+.p{
+  margin: 10px 0px 10px 20px;
+}
+.Link2{
+  margin: 0px 0px 20px 10px;
+}
+.Link2:hover{
+  color: tomato;
+}
+
+.Link1{
+  margin: 30px 15px 5px 20px;
+  text-align: left;
+}
+.Link1:hover{
+  color: rgb(246, 177, 1);
+}
+.center{
+  margin-left: 50px;
+}
+.Link .back{
+  margin: 30px 15px 5px 20px;
+}
+.Link .back:hover{
+  color: lightgreen;
+}
+.divnav{
+  background-color: darkgrey;
+}
+.span{
+  background-color: lightskyblue;
+}
