@@ -6,12 +6,12 @@ import FormRegister from './formRegistration'
 
 class UserRegistration extends React.Component {
     handleRegister = (data) =>{
-        if(data.name === "" && data.email === "" && data.password == ""){
+        if(data.name === "" && data.email === "" && data.password === ""){
             alert('please enter input')
         } else if (data.name === "") {
             if(data.email === ""){
                 alert('please enter username & email')
-            }else if(data.password == ""){
+            }else if(data.password === ""){
                 alert('please enter username & password')
             }else{
                 alert("please enter username");

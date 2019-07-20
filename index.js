@@ -10,7 +10,7 @@ const router = require('./config/routes')
 const router2 = require('./app/controllers/usersController')
 
 const path = require("path");
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3007;
 app.use(express.static(path.join(__dirname, "client/build")));
 
 
